@@ -1,0 +1,124 @@
+.Body1 {
+  height: 100%;
+  color: #fff;
+  width: 100%;
+  align-items: center;
+  background-color: #14213d;
+}
+.Heading {
+  height: 60px;
+  width: 100%;
+  padding: 5px 10px;
+  text-align: center;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Question-section {
+  width: 100%;
+  text-align: center;
+}
+.center {
+  text-align: center;
+  margin: 30px 0px;
+}
+.score {
+  margin: 10px 10px;
+}
+.answer-section {
+  margin: 10px 10px;
+}
+.answers {
+  margin: 10px;
+}
+.actions {
+  display: flex;
+  justify-content: space-around;
+}
+.question {
+  margin: 30px 0px;
+}
+.result {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.result h1 {
+  margin: 20px 0px;
+}
+.result h3 {
+  margin: 30px 0px;
+}
+.playagain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* CSS */
+.button-43 {
+  background-image: linear-gradient(-180deg, #37aee2 0%, #1e96c8 100%);
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1d95c9 0%, #17759c 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
+
+/* CSS */
+.button-88 {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(20, 167, 62, 1) 0%,
+    rgba(102, 247, 113, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-88:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.button-88:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
